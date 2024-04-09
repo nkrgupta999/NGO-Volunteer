@@ -1,0 +1,143 @@
+        /* Navbar CSS */
+
+        body {
+
+          font-family: 'Roboto Slab', serif !important;
+        }
+
+        @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap&quot");
+
+        .navbar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background: #353434;
+          color: #fff;
+        }
+
+        #c-logo>img {
+          height: 70px;
+        }
+
+        #c-logo>span {
+          color: rgb(224, 224, 224);
+          font-weight: bold;
+          font-size: 40px;
+          padding-left: 10px;
+        }
+
+        .navbar-links ul {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          margin-top: 10px;
+        }
+
+        .navbar-links li {
+          list-style: none;
+        }
+
+        .navbar-links li a {
+          color: #ffffff;
+          text-decoration: none;
+          padding: 1rem;
+          display: block;
+        }
+
+        .navbar-links a:hover {
+          background-color: rgba(139, 34, 34, 0.63);
+        }
+
+        #donatebtn {
+          margin: 10px;
+          padding: 5px 15px;
+          background-color: yellow;
+          color: green;
+        }
+
+        #donatebtn:hover {
+          background-color: rgba(139, 34, 34, 0.63);
+          color: white;
+        }
+
+        .toggle-button {
+          position: absolute;
+          top: 1rem;
+          right: 1rem;
+          display: none;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 30px;
+          height: 21px;
+        }
+
+        .toggle-button .bar {
+          height: 3px;
+          width: 100%;
+          background-color: #fff;
+          border-radius: 10px;
+          /* margin-top: 3px; */
+        }
+
+        @media (max-width: 1300px) {
+          .toggle-button {
+            display: flex;
+          }
+
+          .navbar-links {
+            display: none;
+            width: 100%;
+          }
+
+          .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+
+          .navbar-links ul {
+            width: 100%;
+            flex-direction: column;
+          }
+
+          .navbar-links li {
+            text-align: center;
+          }
+
+          .navbar-links li a {
+            padding: 0.5rem 1rem;
+          }
+
+          .navbar-links.active {
+            display: flex;
+          }
+        }
+
+        #eco {
+          font-size: xx-large;
+        }
+
+        /* #volunteer CSS */
+        .card{
+          width: 20rem !important;
+          height: 90vh ;
+        }
+        .sectionbox{
+          background-color: #585757;
+        }
+        .card-body {
+          text-align: center;
+        }
+
+        .cardbox {
+          display: flex;
+          justify-content: space-around;
+          padding: 1 px;
+          /* border: 2px solid blue; */
+          width: 100%;
+        }
+
+        .card-img-top {
+          height: 300px;
+          width: 287px;
+          color: green;
+        }
